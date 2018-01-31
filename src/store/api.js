@@ -1,7 +1,7 @@
 export default {
   getNotifications () {
     // TEST DATA
-    // in real app we would call external app here
+    // in real app we would call external api here
     const notifications = [
       {
         id: 1,
