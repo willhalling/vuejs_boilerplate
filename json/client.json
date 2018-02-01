@@ -1,0 +1,29 @@
+{
+  "id": 1,
+  "name": "Seat",
+  "userCount": 3,
+  "campaignCount": 3,
+  "dateCreated": "2017-07-14T17:17:33.010Z",
+  "campaigns": [
+    {
+      "name": "Sept 2017 Q4 Tactical",
+      "dateCreated": "2017-07-14T17:17:33.010Z",
+      "projects": [
+        {
+          "id": 534899,
+          "name": "Ateca Contract Hire",
+          "dateFrom": "2017-07-14T17:17:33.010Z",
+          "dateTo": "2017-07-14T17:17:33.010Z",
+          "tags": "SVG, Loops 3, Tactical, Seismic",
+          "location": "Spain",
+          "language": "Spanish",
+          "reviews": {
+            "approved": 20,
+            "inReview": 3,
+            "declined": 8
+          }
+        }
+      ]
+    }
+  ]
+}
