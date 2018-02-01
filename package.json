@@ -9,9 +9,11 @@
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js",
-    "storybook": "start-storybook -p 9001 -c .storybook"
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "new-component": "node build/new-component/new-component.js"
   },
   "dependencies": {
+    "ramda": "^0.25.0",
     "vue": "^2.5.13",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
