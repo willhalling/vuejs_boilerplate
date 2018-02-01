@@ -17,6 +17,9 @@ npm run build
 # serve storybook
 npm run storybook
 
+# create new component
+npm run new-component
+
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
