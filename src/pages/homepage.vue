@@ -1,16 +1,18 @@
 <template>
-  <div class="hello">
+  <div class="homepage">
     <notifications :messages="notifications"></notifications>
-    <button type="button" class="btn btn-info" @click="handleClickNotification">Get Notifications</button>
+    <button-cta :onClick="handleClickNotification" theme="primary">Get Notifications</button-cta>
   </div>
 </template>
 
 <script>
-import Notifications from '@/components/Notifications/notifications.vue'
+import Notifications from '@/components/Notifications/notifications'
+import ButtonCta from '@/components/Button/button'
 export default {
-  name: 'HelloWorld',
+  name: 'Homepage',
   components: {
-    Notifications
+    Notifications,
+    ButtonCta
   },
   computed: {
     notifications () {

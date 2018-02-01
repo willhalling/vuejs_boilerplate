@@ -1,16 +1,23 @@
 <template>
   <div id="app">
-    header
+    <o-header></o-header>
     <hr />
     <router-view/>
     <hr />
-    footer
+    <o-footer></o-footer>
   </div>
 </template>
 
 <script>
+import Header from '@/components/Header/header'
+import Footer from '@/components/Footer/footer'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    'o-header': Header,
+    'o-footer': Footer,
+  }
 }
 </script>
 
